@@ -1,5 +1,3 @@
-
-<<<<<<< HEAD
 # Game Price Checker
 
 ## Overview

@@ -113,9 +113,35 @@ Group: B
 All screenshoots related my project
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
 ![image](https://github.com/user-attachments/assets/875ebbca-983b-4749-a524-bea8f8a19bb7)
 
+
+![image](https://github.com/user-attachments/assets/45dfece2-d063-420c-84fe-bc8c1ba0ea97)
+
+
+![image](https://github.com/user-attachments/assets/6b4eabcc-e571-4600-a9fe-44b99189ecb2)
+
+
+![image](https://github.com/user-attachments/assets/e8aec4c8-7e56-495b-9d8b-7d26da75caeb)
+
+
+![image](https://github.com/user-attachments/assets/4c0f044b-4e0d-4eac-b712-523529addfeb)
+
+
+![image](https://github.com/user-attachments/assets/eda44007-11f6-498b-be69-6e91b48ffa97)
+
+
+![image](https://github.com/user-attachments/assets/e3f3a80f-ba6c-4274-956b-5f8eb6f91511)
+
+
+![image](https://github.com/user-attachments/assets/a40e4656-eaa2-4e80-b8bf-67a796b8fcad)
+
+
+![image](https://github.com/user-attachments/assets/027730f8-b8ab-4a45-b46b-8ee506c282e1)
+
+<b>**Log file which contains all the data entered by user-**<b>
+
+![image](https://github.com/user-attachments/assets/9282be4c-c47c-45da-9557-8cfdec5e5b9c)
 
 
 

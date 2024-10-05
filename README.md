@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 # Game Price Checker
 
 ## Overview
@@ -103,3 +104,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Feel free to update the repository URL and license section as necessary.
+=======
+>>>>>>> 127066954d12165edd5209977ee57a49e12abb41

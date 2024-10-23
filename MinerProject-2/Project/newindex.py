@@ -5,19 +5,21 @@ import requests
 import certifi
 import time
 from prettytable import PrettyTable  # For user-friendly tables
+from datetime import datetime
+
 
 MAX_ATTEMPTS = 5
 attempts = 0
 BASE_URL = "https://www.cheapshark.com/api/1.0"
 
-# Password hashing functions
+# Password hashing functions bnaa rhee...........................................................................................................
 def hash_password(password):
     return bcrypt.hashpw(password.encode(), bcrypt.gensalt()).decode()
 
 def check_password(stored_password, provided_password):
     return bcrypt.checkpw(provided_password.encode(), stored_password.encode())
 
-# Input validation functions
+# Input validation functions to check validity of gmail...............................................................................................
 def is_valid_email(email):
     return re.match(r"[^@]+@[^@]+\.[^@]+", email)
 
@@ -30,13 +32,23 @@ def is_valid_password(password):
         return True
     return False
 
-# Save user data to CSV
+# Saving user data to CSV file........................................................................................................................
+# def save_user_data_to_csv(email, hashed_password, security_question, hashed_answer):
+#     with open('users.csv', 'a', newline='') as file:
+#         writer = csv.writer(file)
+#         writer.writerow([email, hashed_password, security_question, hashed_answer])
+#     print("✅ User data saved to users.csv")
+
 def save_user_data_to_csv(email, hashed_password, security_question, hashed_answer):
+    # Get current date and time
+    current_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    # Open the CSV file and append the user data along with the current date and time
     with open('users.csv', 'a', newline='') as file:
         writer = csv.writer(file)
-        writer.writerow([email, hashed_password, security_question, hashed_answer])
-    print("✅ User data saved to users.csv")
+        writer.writerow([email, hashed_password, security_question, hashed_answer, current_datetime])
 
+    print("✅ User data saved to users.csv with date and time")
 # User registration
 def register_user():
     print("\n---- User Registration ----")
